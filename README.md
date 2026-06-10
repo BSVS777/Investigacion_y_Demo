@@ -1,18 +1,29 @@
 ````md
 <div align="center">
 
-# ⚡ Svelte Lab Manager
+  <h1>⚡ Svelte Lab Manager</h1>
 
-### Demo técnica de reactividad, componentes y renderizado dinámico con Svelte 5
+  <h3>Demo técnica de reactividad, componentes y renderizado dinámico con Svelte 5</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF3E00&center=true&vCenter=true&width=700&lines=Reactividad+con+%24state;Valores+derivados+con+%24derived;Componentes+reutilizables;Demo+t%C3%A9cnica+en+vivo" alt="Typing SVG" />
+<img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF3E00&center=true&vCenter=true&width=700&lines=Reactividad+con+%24state;Valores+derivados+con+%24derived;Componentes+reutilizables;Demo+t%C3%A9cnica+en+vivo" 
+    alt="Typing SVG" 
+  />
 
-<br />
+  <br />
+  <br />
 
-![Svelte](https://img.shields.io/badge/Svelte-5-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Demo%20Funcional-22C55E?style=for-the-badge)
+  <img src="https://img.shields.io/badge/Svelte-5-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Status-Demo%20Funcional-22C55E?style=for-the-badge" alt="Status" />
+
+  <br />
+  <br />
+
+  <p>
+    <strong>Una demo académica, ligera para explicar cómo Svelte maneja componentes, estado reactivo y renderizado dinámico.</strong>
+  </p>
 
 </div>
 
@@ -145,35 +156,6 @@ Esto demuestra una de las ventajas principales de Svelte: permite escribir códi
 
 ---
 
-## 🧪 Modificaciones posibles durante la demo en vivo
-
-La demo está preparada para aceptar cambios pequeños en tiempo real, por ejemplo:
-
-### Agregar una nueva prioridad
-
-```svelte
-<option>Urgente</option>
-```
-
-### Cambiar el mensaje cuando no hay tareas
-
-```svelte
-<p>No hay tareas pendientes. Todo bajo control.</p>
-```
-
-### Limitar la cantidad máxima de tareas
-
-```js
-if (tasks.length >= 5) {
-  error = "Solo se permiten 5 tareas en esta demo.";
-  return;
-}
-```
-
-Estas modificaciones permiten demostrar que el código es propio, entendible y adaptable durante la presentación.
-
----
-
 ## ⚖️ Comparativa breve: Svelte vs React
 
 | Aspecto           | Svelte                                     | React                                      |
@@ -253,4 +235,3 @@ La demo no busca ser una aplicación compleja, sino una muestra técnica precisa
 **Código simple. Reactividad clara. Demo lista para producción académica.**
 
 </div>
-```
